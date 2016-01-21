@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package makepro_proto;
+
+message Build {
+  optional string target = 1;
+  repeated string src = 2;
+  repeated string dep = 3;
+}
+
+message Make {
+  repeated Build build = 1;
+}
