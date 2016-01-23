@@ -1,4 +1,4 @@
 build {
-  target: "rpcgen_proto"
+  target: "genrpc_proto"
   src: "def.proto"
 }
