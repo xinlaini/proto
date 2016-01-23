@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package say;
+
+import "rpc/example/hello.proto";
+
+message Request {
+	optional hello.Header hdr = 1;
+	optional string body = 2;
+}
+
+message Response {
+	optional string msg = 1;
+}

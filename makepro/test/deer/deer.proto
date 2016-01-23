@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package deer;
+
+import "makepro/test/cat/lion/lion.proto";
+import "makepro/test/dog/big.proto";
+import "makepro/test/dog/wolf.proto";
+
+message Deer {
+	optional string name = 1;
+	optional dog.BigDog big_dog = 2;
+	optional dog.Wolf wolf = 3;
+  optional lion.Lion lion = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package dog;
+
+message BigDog {
+	optional string name = 1;
+}

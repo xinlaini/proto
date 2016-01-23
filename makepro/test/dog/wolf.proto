@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package dog;
+
+message Wolf {
+	optional string name = 1;
+}

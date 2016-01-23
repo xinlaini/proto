@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+package tiger;
+
+message Tiger {
+  optional string name = 1;
+}
