@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package genrpc;
+package def;
 
 message Method {
   optional string name = 1;
